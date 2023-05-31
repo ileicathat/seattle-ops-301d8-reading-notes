@@ -21,11 +21,11 @@ Review the Submission Instructions for guidance on completing and submitting thi
 >It sends certain types of requests for information and based on the response or lack of response can tell you some information about the target network.
 
 *When a port scanner sends a request to connect, what are the three possible responses? Describe them.*
-> 1. **ICMP reply-**
+> 1. **ICMP reply-** closed?
      Indicates that the target is alive. A ping scan is an automated blast of many ICMP echo requests to different targets to see who responds.
-> 2. **TCP Half Open-**
+> 2. **TCP Half Open-** filtered?
     Sometimes referred to as an SYN scan. It’s a fast and sneaky scan that tries to find potential open ports on the target computer. SYN packets request a response from a computer, and an ACK packet is a response. In a typical TCP transaction, there is an  SYN, an ACK from the service, and a third ACK confirming message received.
-> 3. **TCP Connect-**
+> 3. **TCP Connect-** Open?
     This port scanning technique is basically the same as the TCP Half-Open scan, but instead of leaving the target hanging, the port scanner completes the TCP connection. It’s not as popular a technique as the TCP half-open. First, you have to send one more packet per scan, which increases the amount of noise you are making on the network. Second, since you complete the target’s connection, you might trip an alarm that the half-open scan wouldn’t.
 
 
