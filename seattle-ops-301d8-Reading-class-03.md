@@ -7,16 +7,16 @@ Review the Submission Instructions for guidance on completing and submitting thi
 Reading
 CIDR Block Notation Explained in 2 Minutes
 
-What is CIDR notation? a CIDR block?
+### What is CIDR notation? a CIDR block?
 >CIDR notation is a way of representing a CIDR block, which is simply a range of IP addresses. When you create a network, the aim is to make sure there are enough available IP addresses for your use case, without making the CIDR block too large and wasteful.
 
-How many octets are found in an IPv4 address?
+### How many octets are found in an IPv4 address?
 >4
 
-Setting binary aside and using the decimal system, what is the range of numbers found in an octet?
+### Setting binary aside and using the decimal system, what is the range of numbers found in an octet?
 >0-255
 
-What does the final digit after the “/” represent in an IPv4 address?
+### What does the final digit after the “/” represent in an IPv4 address?
 >The number of bits that make up the mask
 
 How many IP addresses are in the CIDR block 10.0.0.0/24?
