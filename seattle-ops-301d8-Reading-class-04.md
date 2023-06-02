@@ -9,7 +9,7 @@ Reading
 VirtualBox Network Settings Guide
 
 ### Which network mode in VirtualBox can be used to emulate unplugging the Ethernet cable from the network?
-> NAT
+> Not Attached
 
 ### Which network mode would be best if you wanted to run a server on a VM that could be fully accessible from your physical local area network?
 > Bridged 
