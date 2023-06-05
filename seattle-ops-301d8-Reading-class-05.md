@@ -23,7 +23,7 @@ What is a Site-to-Site VPN?
 
 ## Explain the difference between the three types of VPNs.
 
-### Remote Access VPNs
+### Remote Access VPNs (Client Server???)
 
 >A remote access VPN refers to a temporary connection set up between two or more users and a central location. This is good for companies with remote workers either on the road or in their homes. To still be able to access secure servers from the company while away from the office.
 ### Intranet-based Site-to-Site
