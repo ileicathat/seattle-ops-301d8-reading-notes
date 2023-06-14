@@ -1,14 +1,20 @@
-## Reading
-What is a Windows Domain and How Does It Affect My PC?
+## Readings: Windows Server
 
-Explain the role of a Domain Controller?
-> When a computer is joined to a domain, it doesn’t use its own local user accounts. User accounts and passwords are managed on the domain controller. When you log into a computer on that domain, the computer authenticates your user account name and password with the domain controller. This means you can log in with the same username and password on any computer joined to the domain.
+Below you will find reading material and additional resources that support today’s topic and the upcoming lecture.
+Review the Submission Instructions for guidance on completing and submitting this assignment.
 
-What is the benefit of being able to login with the same username and password on any computer joined to the domain? What are the security risks?
-> Expanded access and less powerful client computers needed. If someone gets the access codes, they have many places to be able to gain access.
+### Reading
 
-Describe how group policies are used in domains?
-> Allows an admin to override local client settings, set whole groups to allow or restrict or do actions at the same time while leaving other groups alone.
+What’s the Difference Between Windows and Windows Server?
+> Windows is mostly for individual users of personal computers, laptops,in homes and home office.
 
-In what other ways can you think of that domains could be used beyond what was presented in the reading?
-> simple organization, such as if you had a large digital library, you could have access granted to certain groups for certain levels of ratings like pg-13 or R rated .
+> Server is geared more towards network management, file sharing, web or database hosting, etc.
+
+What is a server, and how is it different from a regular computer? How would you describe this difference to a friend who doesn’t know much about computers?
+> Regular computer is better at doing things for just one person at a time, like going online, or editing a document
+> Server does many things at once and can host many diffrent individual people accessing it for information all at once
+How does the way Windows Server receives updates differ from Windows Home and Pro?
+> Server has a different release cycle and can provide more flexibility for updating the installation. Home and Pro have less flexibility and support is for shorter periods of time
+
+Does Windows Server have different hardware requirements than Windows Home or Pro?
+> yes, in general because Servers are usually constantly on and constantly taking in and dishing out information to many different users and processes, they usually have much higher quality hardware needs.
